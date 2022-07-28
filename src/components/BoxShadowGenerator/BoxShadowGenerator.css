@@ -1,0 +1,84 @@
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}
+.generator-div {
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    border-radius: 0.6rem;
+    box-shadow: 0px 0px 2px 0px rgba(86, 68, 68 , 0.5);
+}
+.shadow-generator {
+    padding: 2rem;
+    display: flex;
+    gap: 0.6rem;
+}
+
+.controller {
+    width: 25%;
+    padding: 0.5rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    font-weight: 400;
+}
+
+.input-group input[type="range"], .input-group input[type="color"] {
+    cursor: pointer;
+}
+
+.input-group:not(:last-child) {
+    border-bottom: 2px solid rgb(183 176 176 / 30%)
+}
+
+input[type="range"] {
+    accent-color: unset;
+    margin-top: 0.4rem;
+}
+
+.display {
+    padding: 1rem 2rem;
+    width: 50%;
+}
+
+.model {
+    position: relative;
+    border: 1px solid rebeccapurple;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+}
+
+.div-properties {
+    width: 24%;
+}
+
+.label-group {
+    gap: 0.2rem;
+    justify-content: space-between;
+    padding: 0 0.2rem;
+}
+.label-group input {
+    width: 2rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
