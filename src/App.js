@@ -7,6 +7,7 @@ import BoxShadowGenerator from './components/BoxShadowGenerator/BoxShadowGenerat
 function App() {
   return (
     <div className="App">
+      
       <div style={{width: "100%"}}>
         {/* <Slider infinite={true} /> */}
         <BoxShadowGenerator />
