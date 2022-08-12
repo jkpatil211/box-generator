@@ -3,7 +3,7 @@
 This project is developed to showcase custom components created while practicing react.
 as of now there is Box shadow generator
 
-##Live Demo
+## Live Demo
 https://jkpatil211.github.io/custom-components/
 
 ## Available Scripts
