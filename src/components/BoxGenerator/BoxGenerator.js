@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
-import './BoxShadowGenerator.css'
+import './BoxGenerator.css'
 import RangeInputGroup from './RangeInputGroup';
 import ColorInputGroup from './ColorInputGroup';
 import PopupBox from './PopupBox';
 import CodeModalContent from './CodeModalContent';
 
-export default function BoxShadowGenerator() {
+export default function BoxGenerator({title}) {
 
     const [verticle, setVerticle] = useState(2);
     const [horizontal, setHorizontal] = useState(3);
@@ -24,7 +24,7 @@ export default function BoxShadowGenerator() {
 
     return (
         <>
-            <h2 className='component-title'>Box Shadow Generator</h2>
+            <h2 className='component-title'>{title}</h2>
             <div className="shadow-generator">
                 <div className='generator-div controller'>
                     <RangeInputGroup label='Horizontal' value={horizontal} setValue={setHorizontal} min={-100} />

@@ -1,10 +1,10 @@
-# Custom components
+# Box Generator
 
-This project is developed to showcase custom components created while practicing react.
+This project is developed to create a playground for developer while practicing react.
 as of now there is Box shadow generator
 
 ## Live Demo
-https://jkpatil211.github.io/custom-components/
+https://jkpatil211.github.io/box-generator/
 
 ## Available Scripts
 
