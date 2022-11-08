@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/box-generator/static/css/main.5bb75ddd.css",
-    "main.js": "/box-generator/static/js/main.581db597.js",
+    "main.css": "/box-generator/static/css/main.65acf023.css",
+    "main.js": "/box-generator/static/js/main.6551aa8e.js",
     "index.html": "/box-generator/index.html",
-    "main.5bb75ddd.css.map": "/box-generator/static/css/main.5bb75ddd.css.map",
-    "main.581db597.js.map": "/box-generator/static/js/main.581db597.js.map"
+    "main.65acf023.css.map": "/box-generator/static/css/main.65acf023.css.map",
+    "main.6551aa8e.js.map": "/box-generator/static/js/main.6551aa8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bb75ddd.css",
-    "static/js/main.581db597.js"
+    "static/css/main.65acf023.css",
+    "static/js/main.6551aa8e.js"
   ]
 }
