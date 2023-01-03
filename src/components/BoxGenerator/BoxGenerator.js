@@ -16,11 +16,7 @@ export default function BoxGenerator({title}) {
     const [shadowColor, setShadowColor] = useState('#000000');
     const [showPopup, setShowPopup] = useState(false);
 
-    const [boxShadow, setBoxShadow] = useState(() => `${horizontal}px ${verticle}px ${blurRadius}px ${spreadRadius}px #000000`)
-
-    useEffect(() => {
-        setBoxShadow(`${horizontal}px ${verticle}px ${blurRadius}px ${spreadRadius}px ${shadowColor}`)
-    }, [horizontal, verticle, blurRadius, spreadRadius, shadowColor])
+    const boxShadow = `${horizontal}px ${verticle}px ${blurRadius}px ${spreadRadius}px ${shadowColor}`;
 
     return (
         <>
